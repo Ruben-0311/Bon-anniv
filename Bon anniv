@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            background: royalblue;
+            overflow: clip;
+            align-items: center;
+        }
+        .conteneur {
+            display: flex;
+            justify-content: center; /* Centre horizontalement */
+            align-items: center; /* Centre verticalement */
+            height: 1vh; /* Hauteur égale à la hauteur de la fenêtre */
+        }
+        .conteneur {
+            display: grid;
+            place-items: center; /* Centre horizontalement et verticalement */
+            height: 1vh; /* Hauteur égale à la hauteur de la fenêtre */
+
+        }
+
+        p {
+            color: #E1A624;
+            text-align: center;
+            font-family: "Arial Black", sans-serif;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<div class="conteneur2">
+    <div class="conteneur">
+        <p class="box">❤️❤️❤️<br>BON ANNIVERSAIRE<br>MAMAN !!!<br>❤️❤️❤️</p>
+        <p class="box">Ce Dimanche 5 mai je te souhaite un joyeux anniversaire <br>Pour tes 47 ans je t'offre donc cette carte numérique fait maison ❤️</p>
+        <img src="cake.png">
+    </div>
+</div>
+</body>
+</html>
